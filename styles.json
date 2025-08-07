@@ -3363,5 +3363,444 @@
         "cfg_scale":7,
         "width":1024,
         "height":1024
+    },
+    "fluxkrea": {
+        "prompt": "{p}{np}",
+        "model": "Flux.1-Krea-dev Uncensored (fp8+CLIP+VAE)",
+        "steps": 4,
+        "width": 1024,
+        "height": 1024,
+        "cfg_scale": 1,
+        "karras": false,
+        "sampler_name": "k_euler"
+    },
+    "fluxkrea-small": {
+        "width": 512,
+        "height": 512,
+        "prompt": "{p}{np}",
+        "model": "Flux.1-Krea-dev Uncensored (fp8+CLIP+VAE)",
+        "steps": 4,
+        "cfg_scale": 1,
+        "karras": false,
+        "sampler_name": "k_euler"
+    },
+    "fluxkrea-vertical": {
+        "width": 704,
+        "height": 1472,
+        "prompt": "{p}{np}",
+        "model": "Flux.1-Krea-dev Uncensored (fp8+CLIP+VAE)",
+        "steps": 4,
+        "cfg_scale": 1,
+        "karras": false,
+        "sampler_name": "k_euler"
+    },
+    "fluxkrea-extreme-vertical": {
+        "width": 640,
+        "height": 1536,
+        "prompt": "{p}{np}",
+        "model": "Flux.1-Krea-dev Uncensored (fp8+CLIP+VAE)",
+        "steps": 4,
+        "cfg_scale": 1,
+        "karras": false,
+        "sampler_name": "k_euler"
+    },
+    "fluxkrea-portrait": {
+        "width": 832,
+        "height": 1216,
+        "prompt": "{p}{np}",
+        "model": "Flux.1-Krea-dev Uncensored (fp8+CLIP+VAE)",
+        "steps": 4,
+        "cfg_scale": 1,
+        "karras": false,
+        "sampler_name": "k_euler"
+    },
+    "fluxkrea-portrait-big": {
+        "width": 1024,
+        "height": 1536,
+        "prompt": "{p}{np}",
+        "model": "Flux.1-Krea-dev Uncensored (fp8+CLIP+VAE)",
+        "steps": 4,
+        "cfg_scale": 1,
+        "karras": false,
+        "sampler_name": "k_euler"
+    },
+    "fluxkrea-photo": {
+        "width": 896,
+        "height": 1152,
+        "prompt": "{p}{np}",
+        "model": "Flux.1-Krea-dev Uncensored (fp8+CLIP+VAE)",
+        "steps": 4,
+        "cfg_scale": 1,
+        "karras": false,
+        "sampler_name": "k_euler"
+    },
+    "fluxkrea-photo-horizontal": {
+        "width": 1152,
+        "height": 896,
+        "prompt": "{p}{np}",
+        "model": "Flux.1-Krea-dev Uncensored (fp8+CLIP+VAE)",
+        "steps": 4,
+        "cfg_scale": 1,
+        "karras": false,
+        "sampler_name": "k_euler"
+    },
+    "fluxkrea-landscape": {
+        "width": 1280,
+        "height": 832,
+        "prompt": "{p}{np}",
+        "model": "Flux.1-Krea-dev Uncensored (fp8+CLIP+VAE)",
+        "steps": 4,
+        "cfg_scale": 1,
+        "karras": false,
+        "sampler_name": "k_euler"
+    },
+    "fluxkrea-landscape-big": {
+        "width": 1536,
+        "height": 1024,
+        "prompt": "{p}{np}",
+        "model": "Flux.1-Krea-dev Uncensored (fp8+CLIP+VAE)",
+        "steps": 4,
+        "cfg_scale": 1,
+        "karras": false,
+        "sampler_name": "k_euler"
+    },
+    "fluxkrea-widescreen": {
+        "width": 1344,
+        "height": 768,
+        "prompt": "{p}{np}",
+        "model": "Flux.1-Krea-dev Uncensored (fp8+CLIP+VAE)",
+        "steps": 4,
+        "cfg_scale": 1,
+        "karras": false,
+        "sampler_name": "k_euler"
+    },
+    "fluxkrea-cinematic": {
+        "width": 1536,
+        "height": 640,
+        "prompt": "{p}{np}",
+        "model": "Flux.1-Krea-dev Uncensored (fp8+CLIP+VAE)",
+        "steps": 4,
+        "cfg_scale": 1,
+        "karras": false,
+        "sampler_name": "k_euler"
+    },
+    "fluxkrea-impressionist": {
+        "prompt": "{p} . A vibrant impressionist painting with bold brush strokes and rich color contrasts, capturing light and shadow in a dynamic and emotional way.###{np}",
+        "model": "Flux.1-Krea-dev Uncensored (fp8+CLIP+VAE)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 1024,
+        "height": 1024
+    },
+    "fluxkrea-baroque": {
+        "prompt": "{p} . A highly detailed baroque-style artwork with intricate patterns, rich textures, and dramatic lighting, emphasizing elegance and opulence.###{np}",
+        "model": "Flux.1-Krea-dev Uncensored (fp8+CLIP+VAE)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 1024,
+        "height": 1024
+    },
+    "fluxkrea-dreamscape": {
+        "prompt": "{p} . A surrealist dreamscape where elements of the scene blend in unexpected ways, creating a whimsical and thought-provoking composition.###{np}",
+        "model": "Flux.1-Krea-dev Uncensored (fp8+CLIP+VAE)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 1024,
+        "height": 1024
+    },
+    "fluxkrea-watercolor": {
+        "prompt": "{p} . A watercolor painting with soft gradients, delicate blending, and light washes, giving the scene a gentle, dreamy, and fluid appearance.###{np}",
+        "model": "Flux.1-Krea-dev Uncensored (fp8+CLIP+VAE)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 1024,
+        "height": 1024
+    },
+    "fluxkrea-pixel-art": {
+        "prompt": "{p} . A digital pixel art scene, composed of sharp, square pixels, giving the image a nostalgic, video-game-like aesthetic with a simple but striking design.###{np}",
+        "model": "Flux.1-Krea-dev Uncensored (fp8+CLIP+VAE)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 1024,
+        "height": 1024
+    },
+    "fluxkrea-storybook": {
+        "prompt": "{p} . A children's book illustration style, with playful, soft shapes, bright colors, and a whimsical, storybook-like design perfect for young audiences.###{np}",
+        "model": "Flux.1-Krea-dev Uncensored (fp8+CLIP+VAE)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 1024,
+        "height": 1024
+    },
+    "fluxkrea-comic": {
+        "prompt": "{p} . A comic book style, with bold lines, halftone shading, and dynamic action scenes, capturing a dramatic and energetic feel.###{np}",
+        "model": "Flux.1-Krea-dev Uncensored (fp8+CLIP+VAE)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 1024,
+        "height": 1024
+    },
+    "fluxkrea-vintage-poster": {
+        "prompt": "{p} . A vintage poster style, featuring distressed textures, muted colors, and bold typography, reminiscent of mid-century advertisements or travel posters.###{np}",
+        "model": "Flux.1-Krea-dev Uncensored (fp8+CLIP+VAE)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 1024,
+        "height": 1024
+    },
+    "fluxkrea-pop-art": {
+        "prompt": "{p} . A pop art style, featuring bold, primary colors, thick outlines, and a sense of fun and irony, inspired by the work of artists like Andy Warhol or Roy Lichtenstein.###{np}",
+        "model": "Flux.1-Krea-dev Uncensored (fp8+CLIP+VAE)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 1024,
+        "height": 1024
+    },
+    "fluxkrea-glowing-aura": {
+        "prompt": "{p} . A glowing magical aura effect, radiating with vibrant, ethereal light, surrounded by swirling particles, mist, and soft energy waves in a mystical color palette.###{np}",
+        "model": "Flux.1-Krea-dev Uncensored (fp8+CLIP+VAE)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 1024,
+        "height": 1024
+    },
+    "fluxkrea-winter-wonderland": {
+        "prompt": "{p} . A winter wonderland scene, filled with soft snowfall, icy textures, and glowing, frosty light reflecting off snow-covered landscapes.###{np}",
+        "model": "Flux.1-Krea-dev Uncensored (fp8+CLIP+VAE)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 1024,
+        "height": 1024
+    },
+    "fluxkrea-stick-figures": {
+        "prompt": "{p} . A simple stick figure style, with minimalistic lines representing basic human forms and actions, drawn in a playful, childlike manner with a clean, uncluttered look.###{np}",
+        "model": "Flux.1-Krea-dev Uncensored (fp8+CLIP+VAE)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 1024,
+        "height": 1024
+    },
+    "fluxkrea-glitch-art": {
+        "prompt": "{p} . A glitch art style, with distorted visuals, pixelation, random noise, and color shifts, giving the image a futuristic, digital error aesthetic.###{np}",
+        "model": "Flux.1-Krea-dev Uncensored (fp8+CLIP+VAE)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 1024,
+        "height": 1024
+    },
+    "fluxkrea-pointillism": {
+        "prompt": "{p} . A pointillism art style, composed of countless tiny, colorful dots carefully arranged to form the image, creating a textured and vibrant scene when viewed from a distance.###{np}",
+        "model": "Flux.1-Krea-dev Uncensored (fp8+CLIP+VAE)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 1024,
+        "height": 1024
+    },
+    "fluxkrea-pulp-fiction-cover": {
+        "prompt": "A classic pulp fiction book cover, {p}, illustrated in a dramatic, vibrant, and stylized art style reminiscent of mid-20th century pulp magazines. The cover includes bold, eye-catching colors, exaggerated expressions, and dynamic compositions, drawing inspiration from the works of {Norman Saunders|Robert Maguire|Rafael DeSoto|James Bama|Walter Popp|Frank R. Paul|Earle Bergey|H.J. Ward|George Gross|Allen Anderson|Mort Kunstler|Stanley Borack|Norm Eastman|John Newton Howitt|Rudolph Belarski|Fred Pfeiffer|Bruce Minney|George Rozen|William Teason|Emery Clarke|Clarence Doore|Harry Barton|Lawrence Sterne Stevens|Al Brule|Jerome Rozen|Robert Stanley}###{np}",
+        "model": "Flux.1-Krea-dev Uncensored (fp8+CLIP+VAE)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 896,
+        "height": 1280
+    },
+    "fluxkrea-early-80s-cover": {
+        "prompt": "Book Cover: {p}###{np}",
+        "model": "Flux.1-Krea-dev Uncensored (fp8+CLIP+VAE)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 896,
+        "height": 1280,
+        "loras": [
+            { "name": "759150", "is_version": true}
+        ]
+    },
+    "fluxkrea-dnd5e-cover": {
+        "prompt": "cover of a dnd 5e book, text at the top reads: {p}###{np}",
+        "model": "Flux.1-Krea-dev Uncensored (fp8+CLIP+VAE)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 896,
+        "height": 1280,
+        "loras": [
+            { "name": "835250", "is_version": true}
+        ]
+    },
+    "fluxkrea-harlequin-romance-cover": {
+        "prompt": "{p}, vintage book cover, rmcebkCE style###{np}",
+        "model": "Flux.1-Krea-dev Uncensored (fp8+CLIP+VAE)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 896,
+        "height": 1280,
+        "loras": [
+            { "name": "835872", "is_version": true}
+        ]
+    },
+    "fluxkrea-little-golden-book-cover": {
+        "prompt": "The front cover of a book in the \"a Little Golden Book\" series titled {p}, \"a Little Golden Book\" written just above the main title. The left side of the cover is adorned with a golden decorative border.###{np}",
+        "model": "Flux.1-Krea-dev Uncensored (fp8+CLIP+VAE)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 960,
+        "height": 1152,
+        "loras": [
+            { "name": "809843", "is_version": true}
+        ]
+    },
+    "fluxkrea-wizards-vintage-romance-cover": {
+        "prompt": "Harlequin Romance Book Cover with the title {p}###{np}",
+        "model": "Flux.1-Krea-dev Uncensored (fp8+CLIP+VAE)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 896,
+        "height": 1280,
+        "loras": [
+            { "name": "891148", "is_version": true}
+        ]
+    },
+    "fluxkrea-childrens-book-illustration": {
+        "prompt": "childrens_book_illustration, {p}###{np}",
+        "model": "Flux.1-Krea-dev Uncensored (fp8+CLIP+VAE)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 960,
+        "height": 960,
+        "loras": [
+            { "name": "755617", "is_version": true}
+        ]
+    },
+    "fluxkrea-eric-carle-style": {
+        "prompt": "Drawn by Eric Carle {p}###{np}",
+        "model": "Flux.1-Krea-dev Uncensored (fp8+CLIP+VAE)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 960,
+        "height": 960,
+        "loras": [
+            { "name": "803445", "is_version": true}
+        ]
+    },
+    "fluxkrea-wizards-vintage-comic-book": {
+        "prompt": "vintage comic book, {p}###{np}",
+        "model": "Flux.1-Krea-dev Uncensored (fp8+CLIP+VAE)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 768,
+        "height": 1152,
+        "loras": [
+            { "name": "967399", "is_version": true}
+        ]
+    },
+    "fluxkrea-kid-book-illustration": {
+        "prompt": "kidbook, {p}###{np}",
+        "model": "Flux.1-Krea-dev Uncensored (fp8+CLIP+VAE)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 768,
+        "height": 1024,
+        "loras": [
+            { "name": "1063196", "is_version": true}
+        ]
+    },
+    "fluxkrea-magazine-cover": {
+        "prompt": "{magazine_cover|magazine_style|fashion cover} {p}###{np}",
+        "model": "Flux.1-Krea-dev Uncensored (fp8+CLIP+VAE)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 896,
+        "height": 1152,
+        "loras": [
+            { "name": "834917", "is_version": true}
+        ]
+    },
+    "fluxkrea-vintage-vogue-cover": {
+        "prompt": "vintage vogue cover, {p}###{np}",
+        "model": "Flux.1-Krea-dev Uncensored (fp8+CLIP+VAE)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 896,
+        "height": 1280,
+        "loras": [
+            { "name": "966738", "is_version": true}
+        ]
+    },
+    "fluxkrea-dan-seagrave-album-cover": {
+        "prompt": "album cover art by dan seagrave, {p}, intricate details###{np}",
+        "model": "Flux.1-Krea-dev Uncensored (fp8+CLIP+VAE)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 1088,
+        "height": 960,
+        "loras": [
+            { "name": "755477", "is_version": true}
+        ]
+    },
+    "fluxkrea-weird-tales-cover": {
+        "prompt": "pulp magazine cover in the style of weirdtales {p}###{np}",
+        "model": "Flux.1-Krea-dev Uncensored (fp8+CLIP+VAE)",
+        "steps": 4,
+        "sampler_name": "k_euler",
+        "cfg_scale": 1,
+        "karras": false,
+        "width": 896,
+        "height": 1152,
+        "loras": [
+            { "name": "734557", "is_version": true}
+        ]
     }
 }
