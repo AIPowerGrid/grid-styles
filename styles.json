@@ -3364,16 +3364,6 @@
         "width":1024,
         "height":1024
     },
-    "fluxkontext-img2img": {
-        "prompt": "{p}{np}",
-        "model": "Flux.1-Kontext-dev",
-        "steps": 20,
-        "width": 1024,
-        "height": 1024,
-        "cfg_scale": 1,
-        "karras": false,
-        "sampler_name": "k_euler"
-    },
     "fluxkrea": {
         "prompt": "{p}{np}",
         "model": "Flux.1-Krea-dev Uncensored (fp8+CLIP+VAE)",
