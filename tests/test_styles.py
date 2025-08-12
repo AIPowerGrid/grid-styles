@@ -17,7 +17,7 @@ def recursive_update(target: MutableMapping[str, Any], source: Mapping[str, Any]
     for key, value in source.items():
         if isinstance(value, MutableMapping):
             recursive_update(target.setdefault(key, {}), value)
-        elif isinstance(value, Sequence):
+        elif isinstance(value, Sequence) and not isinstance(value, str):
             target.setdefault(key, []).extend(value)
         else:
             target[key] = value
