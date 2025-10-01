@@ -58,5 +58,19 @@
     "anime": [
         "anime",
         "anime-xl"
+    ],
+    "wan2-video-economy": [
+        "wan2-5b-video",
+        "wan2-5b-video-short",
+        "wan2-5b-video-portrait",
+        "wan2-5b-video-square",
+        "wan2-5b-video-widescreen"
+    ],
+    "wan2-video-premium": [
+        "wan2-14b-video-quality",
+        "wan2-14b-video-quality-short",
+        "wan2-14b-video-quality-portrait",
+        "wan2-14b-video-quality-square",
+        "wan2-14b-video-quality-widescreen"
     ]
 }
